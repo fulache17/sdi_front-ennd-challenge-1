@@ -1,0 +1,65 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.image-container {
+  display: inline-block;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.share-container {
+  margin-top: 10px;
+}
+
+.share-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.share-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-link {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 4px;
+  color: #121416;
+  text-decoration: none;
+  border: 1px solid #bcbdbd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #f0f0f0;
+}
+
+.active {
+  background-color: #f15c42;
+  color: white;
+}
+
+.ellipsis {
+  color: #999;
+}
+
+.share-icon {
+  align-items: right;
+}
